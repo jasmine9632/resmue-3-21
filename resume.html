@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>jasmine</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+  <link rel="stylesheet" href="./css/resume.css">
+  <link rel="stylesheet" href="./css/pikachu.css">
+  <script src="//at.alicdn.com/t/font_912865_2wjc97a6weo.js"></script>
+  <style id="styleTag"></style>
+</head>
+
+<body>
+
+  <header id="topNavBar" class="topNavBar">
+    <div class="topNavBar-inner clearfix">
+      <a class="logo" href="#" alt="logo" style="float:left;">
+        <span class="rf">RF</span>
+      </a>
+      <nav class="menu">
+        <ul class="clearfix ">
+          <li>
+            <a href="#siteAbout">关于</a>
+          </li>
+          <li>
+            <a href="#siteSkills">技能</a>
+          </li>
+          <li>
+            <a href="#siteWorks">作品</a>
+          </li>
+
+          <li>
+            <a href="#siteMessage">留言板</a>
+          </li>
+          <li>
+            <a href="#sitePikaqiu">皮卡丘</a>
+
+          </li>
+          <li>
+            <a href="#siteContact">联系方式</a>
+          </li>
+          <li>
+            <a href="#siteOthers">其他</a>
+          </li>
+          <li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <div class="banner">
+      <div class="mask"></div>
+      <div>
+  
+
+
+
+
+
+  <main>
+    <div data-x id="siteAbout" class="userCard">
+      <div class="pictureAndText clearfix">
+        <div class="picture">
+          <img src="./images/avatar.jpg" width=320 height=290 alt="头像">
+        </div>
+        <div class="text">
+          <span class="welcome">Hello，我是前端工程师
+            <span class="triangle"></span>
+          </span>
+          <h1>任F</h1>
+          </p>
+          <p>前端开发工程师，熟悉HTML5/CSS3/JavaScritp/Vue。
+          </p>
+
+          <hr>
+          <dl>
+            <dt>年龄</dt>
+            <dd>19</dd>
+            <dt>所在城市</dt>
+            <dd>武汉</dd>
+            <dt>邮箱</dt>
+            <dd>360925221@qq.com</dd>
+            <dt>联系电话</dt>
+            <dd>13429828341</dd>
+          </dl>
+        </div>
+        <p class="downloadResume-wrapper">
+          <a class="downloadResume" href="./resume.doc" target="_blank" download>下载PDF简历</a>
+
+      </div>
+      <footer class="media">
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-weixin"></use>
+
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-githublogo"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-weibo"></use>
+          </svg>
+        </a>
+      </footer>
+    </div>
+  </main>
+
+
+  <section data-x id="siteSkills" class="skills">
+    <h2>技能</h2>
+    <ol class="clearfix">
+      <li>
+        <h3>
+          HTML 5 &amp; CSS 3
+        </h3>
+        <p>能独立制作精美网页，掌握 CSS 3 动画、过渡效果、响应式等常用技术。</p>
+      </li>
+      <li>
+        <h3>
+          移动端页面
+        </h3>
+        <p>会使用 REM、vw/vh、FastClick 等技术制作适配手机设备的页面。</p>
+      </li>
+      <li>
+        <h3>
+          JQuery
+        </h3>
+        <p>熟悉 jQuery 的常用 API，能使用 jQuery 制作网站、轮播、Tab 组件等。</p>
+      </li>
+      <li>
+        <h3>
+          Vue.js
+        </h3>
+        <p>熟悉 Vue 常用功能，如组件、Vue-Router、双向绑定等。</p>
+      </li>
+      <li>
+        <h3>
+          前端框架
+        </h3>
+        <p>理解 MVC、MVVM 等思想，可以熟练使用相关的库，如 Vue、React</p>
+      </li>
+    </ol>
+  </section>
+  <section data-x id="siteWorks" class="portfolio">
+    <h2>作品集</h2>
+
+    <div class="works">
+      <ol>
+        <li>
+          <img src="./images/key.jpg" class="swiper-slide" alt="">
+          <p>关键字</p>
+          <div>
+            <a href="#">预览链接</a> <a href="#">源码链</a>
+          </div>
+          <P>描述</P>
+        </li>
+
+        <li>
+          <img src="./images/canvas.jpg" class="swiper-slide" alt="">
+          <p>关键字</p>
+          <div>
+            <a href="#">预览链接</a> <a href="#">源码链</a>
+          </div>
+          <P>描述</P>
+        </li>
+
+        <li>
+          <img src="./images/apple-style-slides.jpg" class="swiper-slide" alt="">
+          <p>关键字</p>
+          <div>
+            <a href="#">预览链接</a> <a href="#">源码链</a>
+          </div>
+          <P>描述</P>
+        </li>
+      </ol>
+
+    </div>
+  </section>
+
+    <!--留言板-->
+  
+  <section class="message">
+    <h2 class="title">留言</h2>
+    <form id="postMessageForm" class="postMessageForm">
+      <div class="row">
+        <label for="" class="left">姓名</label>
+        <input type="text" name="name" class="right">
+      </div>
+      <div class="row">
+        <label for="" class="left"> 留言内容</label>
+        <textarea name="content" id="text" cols="5" rows="6" placeholder="请输入内容" class="right"></textarea>
+      </div>
+      <div class="row">
+        <input type="submit" value="提交" class="submit">
+      </div>
+    </form>
+
+    <ol id="messageList" class="messageList"></ol>
+
+  </section>
+
+
+
+  <!--皮卡丘-->
+  <section class="pikachu">
+  <div class="code-wrapper">
+    <pre id="code"></pre>
+  </div>
+  <div class="preview-wrapper">
+    <div class="preview">
+      <div class="wrapper">
+        <div class="lowerLip-wrapper">
+          <div class="lowerLip"></div>
+        </div>
+        <div class="nose"></div>
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <div class="face left"></div>
+        <div class="face right"></div>
+        <div class="upperLip left"></div>
+        <div class="upperLip right"></div>
+      </div>
+    </div>
+  </div>
+  <div class="actions">
+    <button data-speed="slow">慢速</button>
+    <button data-speed="normal" class="active">中速</button>
+    <button data-speed="fast">快速</button>
+  </div>
+</section>
+
+
+
+
+  <script src="./js/jquery.min.js"></script>
+ 
+  <script src="./js/pikachu.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.2.0/Tween.min.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"></script>
+  <!--模块化-->
+
+  <script src="./js/auto-slide-up.js"></script>
+  <script src="./js/sticky-topbar.js"> </script>
+  <script src="./js/smoothly-navigation.js"> </script>
+  <script src="./js/message.js"></script>
+
+
+
+
+</body>
+
+</html>
